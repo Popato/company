@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <script src="jquery/jquery-1.9.0.min.js"></script>
+    <script src="validation/jquery.validate.js"></script>
+    <script src="validation/additional-methods.js"></script>
+    <script src="validation/messages_zh.js"></script>
+    <script src="js/landing.js"></script>
+</head>
+<body>
+    <form class="min" >
+        <div class="bodys">
+            <div class="users">
+                <p>用户登录</p>
+            </div>
+
+            <!-- 用户名 -->
+            <div class="peop">
+                <div class="icon iconfont icon-ren" id="icon-ren"></div>
+                <input type="text" placeholder="用户名" id="username">
+            </div>    
+             <span></span>
+
+             <!-- 密码   -->
+            <div class="peop">
+                <div class="icon iconfont icon-suo" id="icon-suo"></div>
+                <input type="password" placeholder="密码" id="password">
+            </div>
+            <span></span>
+
+            <!-- 验证码 -->
+            <div class="test">
+                <input type="text" placeholder="验证码" id="testget">
+                <div class="code"></div>
+                <p class="codechange" >点我看验证码</p>
+            </div>
+            <span>区分大小写</span>
+
+            <!-- 按钮 -->
+            <input type="button" id="btn" value="登录">
+
+            <!-- 底部 用户注册  忘记密码   -->
+            <div class="foot">
+                <a href="register.html">用户注册</a>
+                <a href="#">忘记密码</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

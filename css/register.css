@@ -1,0 +1,248 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* 颜色 淡绿 #dff0d8  深绿 #3c763d 淡红 #f2dede 深红 #a94442   按钮#e2454e */
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../img/login_background.jpg)#fedc71 no-repeat;
+	/* background-size: cover; */
+}
+input{
+	outline: none;
+}
+
+/* jquery 样式 */
+.iconred{
+	background: #f2dede !important;
+	border: 1px solid #a94442 !important;
+	color: #a94442 !important;
+}
+
+.icongreen{
+	background: #dff0d8 !important;
+	border: 1px solid #3c763d !important;
+	color: #3c763d !important;
+}
+
+.inputred{
+	border: 1px solid #a94442 !important;
+	border-left: none !important; 
+}
+
+.inputgreen{
+	border: 1px solid #3c763d !important;
+	border-left: none !important;
+}
+
+
+
+/* 主体 */
+.min{
+	width: 465px;
+	height: 510px;/* 510-80 */
+	background: white;
+	position: absolute;
+	top: 240px;
+	left: 60%;
+	box-shadow: 0px 0px 10px rgba(69,69,69,0.8);
+	border-top: 2px solid #b13e3e;
+}
+
+.bodys{
+	width: 405px;
+	height: 355px;/* 355-80 */
+	margin: 20px auto;
+}
+
+.bodys span{
+	color: #a94442;
+	font-size: 14px;
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+}
+
+/* 用户登录 */
+.bodys .users{
+	height: 25px;
+	width: 100%;
+	margin: 10px auto;
+	border-left: 5px solid #a94442;
+}
+
+.bodys div p{
+	font-size: 20px;
+	line-height: 25px;
+	margin-left: 15px;
+}
+/* 用户名 */
+.phone{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.phone input{
+	width: 360px;
+	height: 100%;
+	border: 1px solid #3c763d;
+	border-left: 0;
+	border-radius: 0 10px 10px 0;
+	font-size: 20px;
+	padding: 0 20px;
+}
+.phone div{
+	width: 45px;
+	height: 100%;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px; 
+	color: #3c763d;
+	border-radius: 10px 0 0 10px;
+	
+}
+/* 用户名 密码 手机号码*/
+.peop{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.peop input{
+	width: 260px;
+	height: 100%;
+	border: 1px solid #3c763d;
+	border-left: 0;
+	border-radius: 0 10px 10px 0;
+	font-size: 20px;
+	padding: 0 20px;
+}
+.peop div{
+	width: 45px;
+	height: 100%;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px; 
+	color: #3c763d;
+	border-radius: 10px 0 0 10px;
+	
+}
+.peop a{
+	font-size: 16px;
+	color: black;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+}
+
+/* 获取验证码 */
+.test{
+	width: 100%;/* 405 */
+	height: 50px;
+	margin-top: 15px;
+}
+.test .icon{
+	width: 45px;
+	height: 100%;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px; 
+	color: #3c763d;
+	border-radius: 10px 0 0 10px;
+	float: left;
+}
+
+.test input{
+	width: 200px;
+	height: 100%;
+	border: 1px solid #3c763d;
+	border-left: 0;
+	border-radius: 0 10px 10px 0;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+.test .get{
+	width: 130px;
+	height: 100%;
+	line-height: 50px;
+	color: white;
+	background: #ec868c;
+	border-radius: 10px;
+	text-align: center;
+	float: right;
+	margin-right:20px; 
+	border: none;
+	font-size: 16px;
+}
+
+/* 按钮 淡红 #f2dede 深红 #a94442   按钮#e2454e*/
+
+#btn{
+	width: 100%;
+	height: 50px;
+	background: #e2454e;
+	border-radius: 10px; 
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin-top:10px; 
+}
+
+/* 底部 用户注册  注册即同意 */
+.foot{
+	color: #5392cb;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.foot a{
+	color: #5392cb;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 10px;
+	height: 20px;
+	line-height: 20px;
+	text-decoration: none;
+	float: left;
+	width: 50%;
+}
+
+.foot a span:first-child{
+	color: black;
+	display: inline-block;
+	width: 75px;
+}
+
+.foot a span:last-child{
+	display: inline-block;
+	width: 145px;
+}
+
+
+
+
+
+
+
+

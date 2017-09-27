@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业网站</title>
+	<link rel="stylesheet" href="swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="css/official.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="animate/animate.min.css">
+	<script src="jquery/jquery-1.7.min.js"></script>
+	<script src="swiper/js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="animate/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+		
+	 <!-- Swiper 动画-->
+    <div class="swiper-container">
+    	<!-- 导航栏 -->
+		<div class="navigation" id="nav">
+			<div class="navall">
+				<div class="logo">
+					<img src="img/logo1.png">
+					<p>伟达金云桥</p>
+				</div>
+				<div class="menu">
+					<ul>
+						<a href="#">
+							<li>优先认购</li>
+						</a>
+						<a href="#">
+							<li>我要投资</li>
+						</a>
+						<a href="#">
+							<li>我要转让</li>
+						</a>
+						<a href="#">
+							<li>我要供票</li>
+						</a>
+						<a href="#">
+							<li>我的云桥</li>
+						</a>
+						<a href="#">
+							<li>帮助中心</li>
+						</a>
+					</ul>
+				</div>
+				<div class="land">
+					<img src="img/user.png">
+					<p class="first">
+						<a href="landing.html">登陆/</a><a href="register.html">注册</a>
+					</p> 
+				</div>
+				<div class="load">
+					<img src="img/user.png">
+					<div class="txt">
+						<p class="welcome">欢迎您！</p>
+						<p class="user" id="user"></p>
+					</div>
+					<p class="quit">退出</p>
+				</div>
+			</div>
+		</div>
+        <div class="swiper-wrapper">
+        	<!-- 第一屏 视频 -->
+            <div class="swiper-slide">
+            	<video autoplay loop>
+            		<source src="video/banner.mp4"></source>
+            	</video>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/quxian.png" class="quxian ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+            	<img src="img/table.png" class="table ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+            </div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+</body>
+</html>

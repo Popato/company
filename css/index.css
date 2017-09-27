@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+html body{
+	min-width: 1376px;
+	width: 100%;
+	height: 100%;
+	
+}
+/* 导航栏 */
+.navigation{
+	width: 100%;
+	height: 75px;
+	background: #dadce1;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 10;
+	display: block;
+}
+
+.navall{
+	height: 100%;
+	width: 1200px;
+	margin: 0 355px; 
+}
+/* logo部分 */
+.logo{
+	height: 100%;
+	width: 180px;
+	float: left;
+}
+.logo img{
+	width: 40px;
+	height: 40px;
+	margin: 18px 5px;
+	float: left;
+}
+.logo p{
+	font-size: 20px;
+	width: 160px;
+	height: 100%;
+	line-height: 75px;
+	color: #9c9c9e;
+}
+
+/* 菜单部分 */
+.menu{
+	float: left;
+}
+.menu ul{
+	width: 720px;
+	height: 100%;
+	margin: 0 auto;
+}
+.menu ul li{
+	color: #676767;
+	font-size: 18px;
+	line-height: 75px;
+	float: left;
+	width: 80px;
+	text-align: center;
+	margin: 0 20px;
+}
+ a{
+	text-decoration: none;
+}
+
+/* 登陆注册 */
+.land{
+	width: 150px;
+	height: 100%;
+	margin-right:5px;
+	float: left;
+	margin: 0 40px;
+}
+.land p{
+	color: #b13e3e;
+	width: 105;
+	height: 100%;
+	position: relative;
+	left: 60px;
+	top: -45px;
+}
+
+.land img{
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: 15px;
+	left: 5px;
+}
+.land p a{
+	width: 50px;
+	height: 100%;
+	color: #b13e3e;
+	line-height: 75px;
+	font-size: 18px;
+}
+
+/* 登陆后 */
+.load{
+	width: 200px;
+	height: 100%;/* 75px */
+	float: left;
+	margin: 0 40px;
+}
+.load img{
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: 15px;
+	left: 5px;
+}
+
+.load .txt{
+	width: 100px;
+	height: 100%;
+	position: relative;
+	left: 55px;
+	top: -45px;
+}
+.load .txt p{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+
+.load .txt .welcome{
+	line-height: 45px;
+}
+.load .txt .user{
+	line-height: 25px;
+}
+.load .quit{
+	height: 25px;
+	width: 40px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	background: #f2dede;
+	border-radius: 10px;
+	color: #a94442;
+	position: relative;
+	left: 155px;
+	top: -100px;
+}
+/* 主页图片 */
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide:nth-child(2){
+	background: url(../img/2.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+}
+.swiper-slide:nth-child(3){
+	background: url(../img/3.jpg);
+	background-size: cover;
+}
+.swiper-slide:nth-child(4){
+	background: url(../img/4.jpg);
+	background-size: cover;
+}
+.swiper-slide:nth-child(5){
+	background: url(../img/5.jpg);
+	background-size: cover;
+}
+
+/* 第二屏 图片 */
+
+.quxian{
+	margin-top: 375px; 
+}
+
+.table{
+	margin-top: 620px; 
+}
+
+/* 页面滑动按钮swiper-pagination */
+.swiper-pagination-bullet{
+	background: rgba(255,255,255,1);
+	border: 3px solid rgba(124,124,124,1);
+	width: 25px;
+	height: 25px;
+}
+
+.swiper-pagination-bullet-active{
+	background: #b13e3e;
+}
+
+
+
+
+
+
+
